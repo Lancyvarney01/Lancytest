@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lancy Varney | Personal Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f6ef;
+    color: #293b30;
+}
+
+header {
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #355c45;
+}
+
+nav a {
+    text-decoration: none;
+    color: #293b30;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #c6a52e;
+}
+
+.hero {
+    min-height: 80vh;
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text small {
+    color: #a78b27;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 58px;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #c6a52e;
+}
+
+.hero-text p {
+    line-height: 1.9;
+    color: #66746a;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.button {
+    display: inline-block;
+    background: #355c45;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background: #c6a52e;
+}
+
+.hero img {
+    width: 42%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 180px 180px 20px 20px;
+}
+
+.intro {
+    background: #e9eee6;
+    text-align: center;
+    padding: 70px 10%;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    line-height: 1.9;
+    color: #66746a;
+    max-width: 700px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #66746a;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 330px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Lancy's World.</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="interests.html">Interests</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <small>WELCOME TO MY WORLD</small>
+
+        <h1>Hello, I'm <span>Lancy Varney.</span></h1>
+
+        <p>
+            Welcome to my personal website!
+            This is a little space where I share my story,
+            my interests, my ambitions, and the things
+            that make me unique.
+        </p>
+
+        <a href="about.html" class="button">
+            Get to know me
+        </a>
+    </div>
+
+    <img
+    src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85"
+    alt="Beautiful yellow flowers">
+
+</section>
+
+<section class="intro">
+    <h2>A Little About My World</h2>
+
+    <p>
+        Everyone has a story, and this website is
+        where mine begins. Explore my background,
+        discover my interests, and learn more about
+        my dreams and future ambitions.
+    </p>
+</section>
+
+<footer>
+    &copy; 2026 Lancy Varney. All Rights Reserved.
+</footer>
+
+</body>
+</html>
